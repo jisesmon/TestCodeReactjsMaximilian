@@ -1,0 +1,15 @@
+.BookDate{
+    border: 1px solid #c9bc06;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    display: flex; 
+    flex-direction: column;
+}
+
+.BookDate-Year,
+.BookDate-Month,
+.BookDate-day{
+    padding: 0.3rem;
+    font-size: 0.7rem;
+}
+ 

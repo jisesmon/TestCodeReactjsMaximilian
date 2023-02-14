@@ -1,0 +1,22 @@
+.bookItem {
+  
+    border: 1px solid #76eafc;
+    margin: 0.2rem;
+    padding: 0.5rem; 
+ 
+}
+
+.bookItem-img{
+    width: 7rem;
+    height:7rem;
+}
+
+.bookItem-name{
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.bookItem-price{
+    padding: 2rem;
+    font-size: 1rem;
+}
