@@ -1,0 +1,22 @@
+.NewBook {
+  
+    border: 1px solid #76eafc;
+    margin: 0.2rem;
+    padding: 0.5rem; 
+ 
+}
+
+.NewBook-img{
+    width: 7rem;
+    height:7rem;
+}
+
+.NewBook-name{
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.NewBook-price{
+    padding: 2rem;
+    font-size: 1rem;
+}
