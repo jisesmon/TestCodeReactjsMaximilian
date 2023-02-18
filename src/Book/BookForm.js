@@ -100,12 +100,12 @@ const BookForm=(props) => {
             
             
             onChange={dateWriteHandler}  />
+ 
              {/* value={userInput.dateWrite} */}
+ 
 
           </div>
         </div>
-
-        
         <button type="submit" className="btn btn-primary">
           ok
         </button>
