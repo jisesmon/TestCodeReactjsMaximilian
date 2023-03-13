@@ -44,3 +44,13 @@ Extention VSCode
  <br />[vscode-color-picker](https://marketplace.visualstudio.com/items?itemName=AntiAntiSepticeye.vscode-color-picker)
 <br />
 
+## 07 - Debugging React Apps
+
+003 Analyzing Code Flow & Warnings</br>
+004 Working with Breakpoints<br/>
+005 Using the React DevTools<br/>
+`React DevTools`
+
+
+
+
