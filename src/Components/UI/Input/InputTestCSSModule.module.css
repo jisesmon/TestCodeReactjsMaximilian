@@ -1,0 +1,12 @@
+.form-control{
+    border: 1px solid   #ccc  ;
+}
+
+.form-control.invalid {
+    border: 1px solid   #c03d3d  ;
+    background-color:  #ffd5d5  ;
+}
+.form-control.valid {
+    border: 1px solid   #3dc05e  ;
+    background-color:  #ffffff  ;
+}

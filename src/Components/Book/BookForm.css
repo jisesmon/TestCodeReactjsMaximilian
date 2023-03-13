@@ -2,3 +2,12 @@
     width: 7rem;
     height:7rem;
 }
+
+.form-checkvalidtion.invalid  .col-form-label{
+color: red;
+}
+.form-checkvalidtion.invalid  .form-control{
+    /* color: red; */
+    border: 1px solid #c03d3d;
+    background-color: #ffd5d5;
+    }
