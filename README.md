@@ -51,6 +51,10 @@ Extention VSCode
 005 Using the React DevTools<br/>
 `React DevTools`
 
+## 08 - Time to Practice_ A Complete Practice Project
+
+
+
 
 
 

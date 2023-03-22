@@ -1,0 +1,57 @@
+
+.ErrorModel_C8    
+{  
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: +1056;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+     
+}
+.ErrorModel_C8    .backdorp
+{
+    background-color: #565656e9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.ErrorModel_C8 .ErrorModel_C8-model  
+{
+    position: absolute;
+     
+}
+.ErrorModel_C8 .ErrorModel_C8-model .ErrorModel_C8-model-dialog {
+    background-color: #ffffff;
+    /* border: 1px solid #b9b8b8; */
+    border-radius:  0.4rem ;
+  }
+
+   
+
+
+  .ErrorModel_C8-model-header {
+    border-radius:  0.4rem 0.4rem 0 0 ;
+    padding: 0.6rem;
+    border-bottom: 1px solid #b9b8b8;
+    background-color: #df3b3b;
+  }
+
+  .ErrorModel_C8-model-body {
+    padding: 1rem;
+    border-bottom: 1px solid #b9b8b8;
+  }
+
+  .ErrorModel_C8-model-footer {
+    padding: 0.4rem;
+  }
