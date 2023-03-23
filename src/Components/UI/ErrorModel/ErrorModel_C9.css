@@ -1,0 +1,52 @@
+.backdorp9
+{
+    background-color: #565656e9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.modeloverlay9  
+{
+    position: fixed;
+    top: 30vh;
+    left: 10%;
+    width: 80%;
+    z-index: 100;
+    overflow: hidden;
+     
+}
+@media (min-width: 768px) {
+    .modeloverlay9 {
+      left: calc(50% - 20rem);
+      width: 40rem;
+    }
+  }
+
+ .modeloverlay9 .modeloverlay9-dialog {
+    background-color: #ffffff;
+    /* border: 1px solid #b9b8b8; */
+    border-radius:  0.4rem ;
+  }
+
+   
+
+
+  .modeloverlay9-header {
+    border-radius:  0.4rem 0.4rem 0 0 ;
+    padding: 0.6rem;
+    border-bottom: 1px solid #b9b8b8;
+    background-color: #df3b3b;
+  }
+
+  .modeloverlay9-body {
+    padding: 1rem;
+    border-bottom: 1px solid #b9b8b8;
+  }
+
+  .modeloverlay9-footer {
+    padding: 0.4rem;
+    display: flex;
+    justify-content: flex-end;
+  }

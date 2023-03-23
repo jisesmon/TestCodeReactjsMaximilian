@@ -1,8 +1,10 @@
-import React, { useState, Fragment } from "react";
-import ErrorModelCC8 from "../UI/ErrorModel/ErrorModel_C8";
-const AddUserCC8 = (props) => {
-  const [enteredName, setEnteredName] = useState("");
-  const [enteredAge, setEnteredAge] = useState("");
+import React, { useState, Fragment ,useRef } from "react";
+import ErrorModelCC9 from "../UI/ErrorModel/ErrorModel_C9";
+const AddUserCC9 = (props) => {
+
+ const nameInputRef = useRef();
+ const ageInputRef = useRef();
+   
   const [error, setError] = useState(null);
 
   const onCloseHandler = () => {
@@ -11,15 +13,18 @@ const AddUserCC8 = (props) => {
 
   const onSubmitHandler = (event) => {
     event.preventDefault();
-    console.log("enteredName enteredAge", enteredName, enteredAge);
-    if (enteredName.trim().length === 0 || enteredAge.trim().length === 0) {
+    let nameEntered= nameInputRef.current.value;
+    let ageEntered= ageInputRef.current.value;
+    console.log("enteredName enteredAge", nameEntered, ageEntered);
+    
+    if (nameEntered.trim().length === 0 || ageEntered.trim().length === 0) {
       setError({
         title: "Invalid input  in AddUser chapter 8 ",
         message: "please enter inputs !!",
       });
       return;
     }
-    if (+enteredAge < 1 || +enteredAge > 200) {
+    if (+ageEntered < 1 || +ageEntered > 200) {
       setError({
         title: "Invalid input in AddUser chapter 8 ",
         message: "please enter   0< Age < 200 !!",
@@ -27,15 +32,16 @@ const AddUserCC8 = (props) => {
       return;
     }
 
-    props.onSave({ name: enteredName, age: enteredAge });
-    setEnteredName("");
-    setEnteredAge("");
+    props.onSave({ name: nameEntered, age: ageEntered });
+     
+     nameInputRef.current.value='';
+     ageInputRef.current.value='';
   };
 
   return (
     <Fragment>
       {error && (
-        <ErrorModelCC8
+        <ErrorModelCC9
           title={error.title}
           message={error.message}
           onClose={onCloseHandler}
@@ -49,41 +55,31 @@ const AddUserCC8 = (props) => {
         onSubmit={onSubmitHandler}
       >
         <div className="mb-1 ">
-          {" "}
-          <h3>AddUser</h3>
+           <h3>AddUser</h3>
         </div>
 
         <div className="mb-1 text-start">
           <label htmlFor="validationCustom01" className="form-label">
-            {" "}
-            Name
+             Name
           </label>
           <input
             type="text"
             className="form-control"
             id="validationCustom01"
-            onChange={(e) => {
-              setEnteredName(e.target.value);
-            }}
-            value={enteredName}
-            required
+            ref={nameInputRef}
           />
           <div className="valid-feedback">Looks good!</div>
         </div>
         <div className="mb-1 text-start">
           <label htmlFor="validationCustom02" className="form-label">
-            {" "}
-            Age
+             Age
           </label>
           <input
             type="number"
             className="form-control"
             id="validationCustom02"
-            onChange={(e) => {
-              setEnteredAge(e.target.value);
-            }}
-            value={enteredAge}
-            required
+            ref={ageInputRef}
+             
           />
           <div className="valid-feedback">Looks good!</div>
         </div>
@@ -98,4 +94,4 @@ const AddUserCC8 = (props) => {
   );
 };
 
-export default AddUserCC8;
+export default AddUserCC9;

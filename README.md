@@ -53,6 +53,16 @@ Extention VSCode
 
 ## 08 - Time to Practice_ A Complete Practice Project
 
+`ErrorModel`
+
+## 09 - Diving Deeper_ Working with Fragments, Portals & _Refs
+
+`part in chapter 8 in Users_C8`
+003 Creating a Wrapper Component<br/>
+004 React Fragments<br/>
+005 Introducing React Portals<br/>
+006 Working with Portals<br/>
+
 
 
 
