@@ -69,9 +69,9 @@ Extention VSCode
 ` npm install -g serve `<br/>
 ` npx serve -s build`  <br/>
 
-f-6: useEffet  +  clean fun   <br/>   ---validation form or http reuest. <br/>
+f-6: useEffet  +  clean fun   <br/>   ---validation form or http request. <br/>
 009 Using the useReducer() Hook  <br/>  
-014 Using the React Context API     ---
+014 Using the React Context API    <br/>  
 15 -17  019 Learning the _Rules of Hooks   --input  component  <br/>
 020  021 Diving into _Forward Refs  <br/>  
  --inputAli component   ad page testali --!! <br/>
