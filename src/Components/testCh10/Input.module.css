@@ -1,0 +1,23 @@
+.control   
+{
+    margin: 0.2rem 0.7rem;
+    direction: rtl;
+}
+.labelEnter {
+    margin: 0rem 0.5rem;
+    }
+ .inputEnter {
+margin: 0rem 0.7rem;
+border-radius: 0.3rem;
+}
+.invalid input{
+
+ border: 1px solid #dc6262;
+box-shadow: 1px 1px 10px #dc6262;
+}
+.messagelist{
+    border: 1px solid #70bb0d;
+}
+.message{
+    color: red;
+}

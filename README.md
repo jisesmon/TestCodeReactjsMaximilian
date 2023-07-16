@@ -58,13 +58,21 @@ Extention VSCode
 ## 09 - Diving Deeper_ Working with Fragments, Portals & _Refs
 
 `part in chapter 8 in Users_C8`
+<br/>
 003 Creating a Wrapper Component<br/>
 004 React Fragments<br/>
 005 Introducing React Portals<br/>
 006 Working with Portals<br/>
 
+## 10 - Advanced_ Handling Side Effects, Using Reducers & Using the Context API
 
+` npm install -g serve `<br/>
+` npx serve -s build`  <br/>
 
-
-
+f-6: useEffet  +  clean fun   <br/>   ---validation form or http reuest. <br/>
+009 Using the useReducer() Hook  <br/>  
+014 Using the React Context API     ---
+15 -17  019 Learning the _Rules of Hooks   --input  component  <br/>
+020  021 Diving into _Forward Refs  <br/>  
+ --inputAli component   ad page testali --!! <br/>
 
