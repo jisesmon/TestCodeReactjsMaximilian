@@ -69,10 +69,29 @@ Extention VSCode
 ` npm install -g serve `<br/>
 ` npx serve -s build`  <br/>
 
-f-6: useEffet  +  clean fun   <br/>   ---validation form or http request. <br/>
-009 Using the useReducer() Hook  <br/>  
-014 Using the React Context API    <br/>  
-15 -17  019 Learning the _Rules of Hooks   --input  component  <br/>
-020  021 Diving into _Forward Refs  <br/>  
- --inputAli component   ad page testali --!! <br/>
+f-6: useEffet  +  clean fun  ---validation form or http request. <br/>
+009 Using the useReducer() Hook  <br/> 
+014 Using the React Context API    <br/> 15 -17  019 Learning the _Rules of Hooks   --input  component  <br/>
+020  021 Diving into _Forward Refs  <br/>  --inputAli component   add page testali --!! <br/>
 
+## 11 - Practice Project_ Building a Food Order App
+---in proj redux which chapter?? <br/>
+07  input prop object key value sepecter <br/>
+12  --use   React context   <br/>
+013 Using the Context  -- use  fun reduce  total amout <br/>
+014 Adding a Cart Reducer --use Reducer  <br/>
+015 Working with Refs & Forward Refs    --use  Forward Refs  <br/>
+019 Using the useEffect Hook     --use animtion bump <br/>
+<br/>
+---skip test-----<br/>
+## 12 - A Look Behind The Scenes Of React & Optimization Techniques
+ 
+06 --use  usecalback  --! <br/>
+08 --! note react.memo: prevent render ui  when value not chenge <br/>
+011 Optimizing with useMemo()   --useMemo  --depeden on your prefence how use but less performance app!!
+
+## 12 - A Look Behind The Scenes Of React & Optimization Techniques
+
+6 --use  usecalback  --!<br/>
+08 --! note react.memo: prevent render ui  when value not chenge <br/>
+011 Optimizing with useMemo()   --useMemo  <br/>--depeden on your prefence how use but your app is slow!!
