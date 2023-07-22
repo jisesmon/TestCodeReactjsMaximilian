@@ -95,3 +95,9 @@ f-6: useEffet  +  clean fun  ---validation form or http request. <br/>
 6 --use  usecalback  --!<br/>
 08 --! note react.memo: prevent render ui  when value not chenge <br/>
 011 Optimizing with useMemo()   --useMemo  <br/>--depeden on your prefence how use but your app is slow!!
+
+## 13 - An Alternative Way Of Building Components_ Class-based Components 
+009 Introducing Error Boundaries
+## 14 - Sending Http Requests (e.g. Connecting to a Database)
+--fetch()<br/>
+---skip test----- 
