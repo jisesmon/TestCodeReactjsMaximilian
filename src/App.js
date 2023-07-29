@@ -5,6 +5,7 @@ import UserCC9 from './Components/Users_C9/User_c9';
 import PageCh10 from './Components/testCh10/pageCh10'
 import PageCh12 from './Components/testCh12/pageCh12';  
 import PageCh13 from './Components/testCh13/pageCh13';
+import PageCh15 from './Components/testCh15/pageCh15';
 function App() {
   return (
    
@@ -15,7 +16,7 @@ function App() {
       <PageCh10 />
       <PageCh12 />
       <PageCh13 />
-      
+      <PageCh15 />
       <div><hr/> </div>
     </div>
   );

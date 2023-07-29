@@ -101,3 +101,13 @@ f-6: useEffet  +  clean fun  ---validation form or http request. <br/>
 ## 14 - Sending Http Requests (e.g. Connecting to a Database)
 --fetch()<br/>
 ---skip test----- 
+## 15 - Building Custom React Hooks
+005 Configuring Custom Hooks  --! <br/>
+008  --read http hook --!  <br/>
+10 complate usehttp   and  fun use bind(null,valueParamter1,valueParamter2,valueParamter3,...)  <br/>
+uploadfile??<br/>
+list of fileupload??<br/>
+
+`npx json-server --port 8000 --watch 
+db.json` <br/>
+` npm i bootstrap-icons`
