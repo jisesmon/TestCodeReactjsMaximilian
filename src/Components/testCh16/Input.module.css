@@ -1,0 +1,12 @@
+ .invalid input{
+
+ border: 1px solid #dc6262;
+  box-shadow: 1px 1px 10px #dc6262;
+}
+.messagelist{
+     border: 1px solid #70bb0d;
+}
+.message{
+    color: red;
+}
+ 

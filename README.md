@@ -111,3 +111,10 @@ list of fileupload??<br/>
 `npx json-server --port 8000 --watch 
 db.json` <br/>
 ` npm i bootstrap-icons`
+
+##  16 - Working with Forms & User Input 
+010 Managing The Overall Form Validity   ---base kol <br/>
+011  base info  --useInput  hook  --!<br/>
+014  --useInput--   osol valid fun   ---readed <br/>
+015 formik  --! <br/>
+016  --useInput by  useReducer --!<br/>
