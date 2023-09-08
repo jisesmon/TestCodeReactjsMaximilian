@@ -118,3 +118,8 @@ db.json` <br/>
 014  --useInput--   osol valid fun   ---readed <br/>
 015 formik  --! <br/>
 016  --useInput by  useReducer --!<br/>
+## 17 - Practice Project_ Adding Http & Forms To The Food Order App
+ch14 in ch15 by fetch laonding, error, all method request<br/>
+005 Handling Errors.mp4    ---HANDLER fetch  fun async await is batter then, then catch <br/>
+007 Reading Form Values.mp4   ---a way without  inputcomponent and useInput  form  by ref <br/>
+008 Adding Form Validation.mp4   ---a way without  inputcomponent and useInput  form validation by ref <br/>
