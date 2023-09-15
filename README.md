@@ -123,3 +123,22 @@ ch14 in ch15 by fetch laonding, error, all method request<br/>
 005 Handling Errors.mp4    ---HANDLER fetch  fun async await is batter then, then catch <br/>
 007 Reading Form Values.mp4   ---a way without  inputcomponent and useInput  form  by ref <br/>
 008 Adding Form Validation.mp4   ---a way without  inputcomponent and useInput  form validation by ref <br/>
+
+## 18 - Diving into Redux (An Alternative To The Context API)
+
+005 Exploring The Core Redux Concepts.mp4 <br/>
+`npm i redux react-redux `
+006 More Redux Basics.mp4   ---Basics <br/>
+009 Providing the Store.mp4   ---Providing the Store redux  Provider of 'react-redux' <br/>
+010 Using Redux Data in React Components.mp4  --useSelector of 'react-redux'<br/>
+011 Dispatching Actions From Inside Components.mp4  --useDispatch  of 'react-redux'<br/>
+012 Redux with Class-based Components.mp4   ---! ...and by connect of 'react-redux' for Redux with Class-based but this my test 3 by use  @reduxjs/toolkit  <br/>
+014 Working with Multiple State Properties.mp4  ---  Multiple State <br/>
+016 Redux Challenges & Introducing Redux Toolkit.mp4    ---Redux Toolkit <br/>
+017 Adding State Slices.mp4   ---createSlice({name: [namestore],....settings })   =>[namestore]Slice   ! note namestore identifiers <br/>
+`npm i @reduxjs/toolkit`    
+018 Connecting Redux Toolkit State.mp4   --configureStore ({ [namestore]:[namestore]Slice.reducer ,...others store})  ! note namestore identifiers  <br/>
+019 Migrating Everything To Redux Toolkit.mp4    ---! note action identifiers and action objects   export const  [namestore]Actions=[namestore]Slice.actions; <br/>
+020 Working with Multiple Slices.mp4     ---Multiple Slices --useSelector of 'react-redux' <br/>
+021 Reading & Dispatching From A New Slice.mp4    --New Slice--useSelector ,useDispatch ,Provider    of 'react-redux' <br/>
+022 Splitting Our Code.mp4  ---!! mange princepile code for stores of  @reduxjs/toolkit <br/>

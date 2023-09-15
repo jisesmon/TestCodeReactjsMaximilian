@@ -8,6 +8,7 @@ import PageCh13 from './Components/testCh13/pageCh13';
 import PageCh15 from './Components/testCh15/pageCh15';
 import PageCh16 from './Components/testCh16/pageCh16';
 import PageCh17 from './Components/testCh17/pageCh17';
+import PageCh18 from './Components/testCh18/pageCh18';
 function App() {
   return (
    
@@ -21,6 +22,7 @@ function App() {
       <PageCh15 />
       <PageCh16 />
       <PageCh17 />
+      <PageCh18 />
       <div><hr/> </div>
     </div>
   );
