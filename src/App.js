@@ -1,14 +1,16 @@
-import './App.css';
-import Book from './Components/Book/Book';
-import UserCC8 from './Components/Users_C8/User_c8'; 
-import UserCC9 from './Components/Users_C9/User_c9'; 
-import PageCh10 from './Components/testCh10/pageCh10'
-import PageCh12 from './Components/testCh12/pageCh12';  
-import PageCh13 from './Components/testCh13/pageCh13';
-import PageCh15 from './Components/testCh15/pageCh15';
-import PageCh16 from './Components/testCh16/pageCh16';
-import PageCh17 from './Components/testCh17/pageCh17';
-import PageCh18 from './Components/testCh18/pageCh18';
+import { Routes, Route, Navigate, NavLink,useRoutes } from "react-router-dom";
+import "./App.css";
+import Book from "./Components/Book/Book";
+import UserCC8 from "./Components/Users_C8/User_c8";
+import UserCC9 from "./Components/Users_C9/User_c9";
+import PageCh10 from "./Components/testCh10/pageCh10";
+import PageCh12 from "./Components/testCh12/pageCh12";
+import PageCh13 from "./Components/testCh13/pageCh13";
+import PageCh15 from "./Components/testCh15/pageCh15";
+import PageCh16 from "./Components/testCh16/pageCh16";
+import PageCh17 from "./Components/testCh17/pageCh17";
+import PageCh18 from "./Components/testCh18/pageCh18";
+import PageCh19 from "./Components/testCh19/pageCh19";
 function App() {
   return (
    
@@ -23,6 +25,7 @@ function App() {
       <PageCh16 />
       <PageCh17 />
       <PageCh18 />
+      <PageCh19 />
       <div><hr/> </div>
     </div>
   );

@@ -142,3 +142,16 @@ ch14 in ch15 by fetch laonding, error, all method request<br/>
 020 Working with Multiple Slices.mp4     ---Multiple Slices --useSelector of 'react-redux' <br/>
 021 Reading & Dispatching From A New Slice.mp4    --New Slice--useSelector ,useDispatch ,Provider    of 'react-redux' <br/>
 022 Splitting Our Code.mp4  ---!! mange princepile code for stores of  @reduxjs/toolkit <br/>
+
+## 19 - Advanced Redux
+
+002 Redux & Side Effects (and Asynchronous Code).mp4  !!--store by use useEffect  and action creator function by update   Http Request   <br/>
+004 Refresher _ Practice_ Part 2_2.mp4   --- add removed cart  <br/>
+010 Handling Http States & Feedback with Redux.mp4  ---redux with useEffect http request    --! tech initial for  useEffect http  cart  --!  action creator functions  <br/>
+011 Using an Action Creator Thunk.mp4      --!  action creator functions  to /store/[namemodel]-actions.js  of dispatch's and Api's  <br/>
+012 Getting Started with Fetching Data.mp4  --!  action creator functions  to /store/[namemodel]-actions.js  of dispatch's and Api's  <br/>
+013 Finalizing the Fetching Logic.mp4    ---code data Logic  <br/>
+014 Exploring the Redux DevTools.mp4   -- `Redux DevTools`  <br/>
+`npm install axios` 
+`npx json-server --port 8000 --watch db.json`
+
