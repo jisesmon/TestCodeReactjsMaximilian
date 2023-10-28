@@ -190,3 +190,6 @@ ch14 in ch15 by fetch laonding, error, all method request<br/>
 
 --useRoutMatch ??? isn't in ver 6.16.0  <br/>
 ---useHistory ,matchPath,generatePath ,HistoryRouter  ???  <br/>
+
+## 21 - Deploying React Apps
+003 Adding Lazy Loading  ??

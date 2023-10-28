@@ -1,5 +1,6 @@
 import { Routes, Route, Navigate, NavLink,useRoutes } from "react-router-dom";
 import "./App.css";
+import React ,{Suspense}  from 'react' ; 
 import Book from "./Components/Book/Book";
 import UserCC8 from "./Components/Users_C8/User_c8";
 import UserCC9 from "./Components/Users_C9/User_c9";
@@ -15,14 +16,15 @@ import PageCh20 from "./Components/testCh20/PageCh20";
 import NotFoundPage from "./Site/Pages/NotFoundPage";
 import PageCh20_DetialBookPage from "./Components/testCh20/PageCh20_DetialBookPage"; 
 import SiteHome from "./Site/Pages/SiteHome";
-import AdminDashboard from "./Admin/Pages/ad-dashboard";
-import AdminLayout from "./Admin/Pages/Layout/ad-layout";  
-import AdminProduct from "./Admin/Pages/ad-product"; 
+//import AdminDashboard from "./Admin/Pages/ad-dashboard";
+//import AdminLayout from "./Admin/Pages/Layout/ad-layout";  
+//import AdminProduct from "./Admin/Pages/ad-product"; 
 import SiteHeader from "./Site/Pages/Layout/site-header";
 import SiteFooter from "./Site/Pages/Layout/site-footer";
 import { AppRoutes } from "./AppRoutes";
  import { useLocation } from "react-router-dom";
 
+ const AdminLayout =React.lazy(()=>import('./Admin/Pages/Layout/ad-layout'));
 
 function App() {
   const loction= useLocation();
@@ -33,7 +35,7 @@ const isPageSiteOrAdmin=!loction.pathname.startsWith('/admin');
     {isPageSiteOrAdmin && <SiteHeader/>}
       {/* Ok way 1 */}
       {/* <AppRoutes  /> */}
-
+     <Suspense fallback={<div>laoding....</div>}>
       {/* Ok way 2 */}
       <Routes>
         {/* <Route  index="true" path="/" element={<Navigate replace to={"/home"} />} /> */}
@@ -57,14 +59,14 @@ const isPageSiteOrAdmin=!loction.pathname.startsWith('/admin');
         </Route>
         <Route path="/admin/*" element={<AdminLayout />} >
             {/* error  <Route path="/" element={<Navigate replace to={"dashboard"}  />} /> */}  
-            <Route  path="" element={<AdminDashboard  />} />  
+            {/* <Route  path="" element={<AdminDashboard  />} />  
             <Route path="dashboard/" element={<AdminDashboard  />} />
             <Route path="product/" element={<AdminProduct  />} />
-            <Route path="*" element={<NotFoundPage />} />
+            <Route path="*" element={<NotFoundPage />} /> */}
         </Route>
          <Route path="*" element={<NotFoundPage />} />
       </Routes>  
-      
+      </Suspense>
        {isPageSiteOrAdmin && <SiteFooter/>}
       <div>
         
