@@ -155,3 +155,38 @@ ch14 in ch15 by fetch laonding, error, all method request<br/>
 `npm install axios` 
 `npx json-server --port 8000 --watch db.json`
 
+##  20 - Building a Multi-Page SPA with React Router
+003 Installing React Router.mp4  ---!!Router version 5
+`npm i eact-router-dom-@5`
+004 Defining & Using Routes.mp4  -- Route path=".."...   BrowserRouter  app  <br/>
+005 Working with Links.mp4   Link  to="/.."    
+006 Using NavLinks.mp4   navLnk  to="" activeClassName={}  is batter of  Link<br/>
+007 Adding Dynamic Routes with Params.mp4   Route path="/product-detail/:id"   navLnk  to="/product-detail/2"
+008 Extracting Route Params.mp4  --useParams     Route path="/product-detail/:id/:otherId" multi segments <br/>
+009 Using _Switch_ and _exact_ For Configuring Routes.mp4  ---  Switch   Route s  ,  Route 'exact' that exact match is full Path <br/>
+010 Working with Nested Routes.mp4  --Nested Routes by   Route path="/product/product-detail/:id  in product page    <br/>
+011 Redirecting The User.mp4   -- Redirect to="/" exact    go to page home <br/>
+012-017  peractice of router <br/>
+018 Adding a _Not Found_ Page.mp4   -Not Found Page   Route path="*"    Notpage  <br/>
+019 Implementing Programmatic (Imperative) Navigation.mp4  --- useHistory() location push replace ?? <br/>
+020 Preventing Possibly Unwanted Route Transitions with the _Prompt_ Component.mp4   --!!  Prompt, prevenvt router <br/>
+021 Working with Query Parameters.mp4  ---! Query Parameters in usehistory() uselocation() =new URLSearchParams()  fun Sort  <br/>
+022 Getting Creative With Nested Routes.mp4  ---Nested Routes by Parameters  <br/>
+023 Writing More Flexible Routing Code.mp4 ---!! Flexible Routing  by weithout string url by  1-useRoutMatch()  path url and  2-uselocation() pathname search --!  <br/>
+024 Sending & Getting Quote Data via Http.mp4 --!!! How Works  api's, useHttp, status's{pendding,errored,completed} , UI   <br/> 
+025 Adding the _Comments_ Features.mp4   --!!! How Works  api's, useHttp, in Nested Routes <br/>
+026 Upgrading To React Router v6.mp4  --version 6 
+`npm i react-router-dom@6 ` <br/>
+1- Switch  to  Routes  <br/>
+2-to  Route element={ [namepage]  } <br/>
+3-not use 'exact' <br/>
+4-order of routes also  doesn't matter anymore <br/>
+5-activeClassName={} to ClassName={(navData)=>navData.isActive?classs.active,''}  <br/>
+6- Redirect  to="/x"   to    Navigate  to="/x" <br/>
+7-Nested Routes must warp by   Routes <br/> 
+8-Nested Routes pattern path:  Route to="/x/*"  for parent   , Route to="y" for child  <br/>
+9-Nested Routes other pattern is easier that child in parent that  must use <Outlet /> in page parent where child in parent rendered <br/>
+10-not support   --!!  Prompt, prevent router <br/>
+
+--useRoutMatch ??? isn't in ver 6.16.0  <br/>
+---useHistory ,matchPath,generatePath ,HistoryRouter  ???  <br/>
