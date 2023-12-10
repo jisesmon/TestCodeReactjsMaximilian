@@ -1,0 +1,36 @@
+.fade-slide-enter-done { 
+    height: 80px; 
+    width:  90px;
+    margin:  auto ;
+    background-color:  red ;
+    transition:  all 1s ease-out  ;
+  }
+.fade-slide-enter{
+
+}
+.fade-slide-enter-active{
+    opacity: 1 ;
+}
+.fade-slide-exit{
+
+}
+.fade-slide-exit-active{
+    opacity: 0 ;
+}
+
+.boxItem { 
+    height: 80px; 
+    width:  90px;
+    margin:  auto ;
+    background-color:  red ;
+    transition:  all 1s ease-out  ;
+  }
+  .boxItem-hide { 
+    opacity: 0 ;
+  }
+  .boxItem-show-enter { 
+    height: 0px; 
+  }
+  .boxItem-show { 
+    opacity: 1 ;
+  }

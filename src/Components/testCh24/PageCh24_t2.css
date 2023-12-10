@@ -1,0 +1,33 @@
+ .list-book{
+     /* transition:  all 0.4s ease-out  ;   */
+ }
+ .listItem-show{
+    list-style: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition:  all 0.4s ease-out  ;
+    opacity: 0;
+ }
+ .listItem-show-enter-done { 
+     border: 1px solid red;
+     background-color: aquamarine;
+     opacity: 1;
+  }
+   
+.listItem-show-enter{
+    opacity: 0 ;
+}
+.listItem-show-enter-active{
+    border: 1px solid red;
+    background-color: aquamarine;
+    opacity: 1 ;
+}
+.listItem-show-exit{
+    border: 1px solid red;
+    background-color: aquamarine;
+    opacity: 1 ;
+}
+.listItem-show-exit-active{
+    opacity: 0 ;
+    /* height: 0; */
+}

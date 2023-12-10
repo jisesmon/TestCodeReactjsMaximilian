@@ -35,7 +35,7 @@ const   SiteHeader = ()=>{
               <NavLink className="nav-link " to={"/chapter18"}>chap18</NavLink>
               <NavLink className="nav-link " to={"/chapter19"}>chap19</NavLink>
               <NavLink className="nav-link " to={"/chapter20"}>chap20</NavLink>
-              <NavLink className="nav-link " to={"/chapter20"}>chap20</NavLink>
+              <NavLink className="nav-link " to={"/chapter24"}>chap24</NavLink>
               <NavLink className="nav-link " to={"/admin"}>admin</NavLink>
             </div>
           </div>

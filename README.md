@@ -192,4 +192,73 @@ ch14 in ch15 by fetch laonding, error, all method request<br/>
 ---useHistory ,matchPath,generatePath ,HistoryRouter  ???  <br/>
 
 ## 21 - Deploying React Apps
-003 Adding Lazy Loading  ??
+003 Adding Lazy Loading  ?? 
+## 22 - Adding Authentication To React Apps
+---skip test-----<br/>
+## 23 - A (Pretty Deep Dive) Introduction to Next.js
+---skip test---later--<br/>
+## 24 - Animating React Apps
+003 Using CSS Transitions.mp4  ---! CSS Transitions   --dialogbox !! <br/>
+004 Using CSS Animations.mp4   ---! CSS Transitions   by keyframs --dialogbox !!   <br/>
+???  it others  3lib animation ??
+006 Using ReactTransitionGroup.mp4     <br/>
+`npm i React-Transition-Group`  <br/>
+ ---state exit exiting !!<br/>
+----mountOnEnter  unmountOnExit  !!
+07 !  exiting  entering <br/>
+08 ! warp into component <br/>
+09 ! fix  set timeout  <br/>
+10 !  events  
+11 !!   CSSTransition Component  
+       classNames="[name-class]"  
+        .[name-class]-enter 
+        .[name-class]-enter-active 
+        .[name-class]-exite
+        .[name-class]-exite-active
+        <br/>
+12 ! Customizing CSS Classnames 
+   classNames={{
+       enter: '',
+       enterActive:'classcssnameopen',
+       exite:'',
+       exiteActive: 'classcssnameclose',
+       appear:            
+       appear:
+ }}  <br/>
+  13 !!  Animating Lists  ---TransitionGroup ul  --CSSTransition li --alert boxs !! <br/>
+14 !!!??? react-motion react-move  d3-ease  react-router-transition   ?it route animation  <br/>
+15 --- it others  3lib animation  ? ?
+<br/>
+npm install react-move <br/>
+npm i d3-ease  <br/>
+----------------!! <br/>
+npm i react-motion <br/>
+ ::: is react v18.2:: error npm ERR! Could not resolve dependency:
+npm ERR! peer react@"^0.14.9 || ^15.3.0 || ^16.0.0" from react-motion@0.5.2 <br/>
+------------------!! <br/>
+npm i react-router-transition  <br/>
+-- is react v18.2::error  <br/>
+npm ERR! Could not resolve  dependency: <br/>
+npm ERR! peer react@"^16.8.0" from react-router-transition@2.1.0
+----------------------
+> npm i react-transition-group
+
+up to date, audited 1546 packages in 4m <br/>
+238 packages are looking for funding
+  run `npm fund` for details
+17 vulnerabilities (7 moderate, 8 high, 2 critical)
+to address issues that do not require attention, run 
+  npm audit fix <br/>
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+Run `npm audit` for details.
+npm notice
+npm notice New major version of npm available! 9.5.1 -> 10.2.3
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.2.3  <br/>
+npm notice Run npm install -g  <br/>npm@10.2.3 to update! <br/>
+npm notice <br/>
+------------------------------------------------
+   < React.StrictMode > to error i index.js that  // < React.StrictMode> 
+
+
+

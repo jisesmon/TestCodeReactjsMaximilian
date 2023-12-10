@@ -12,6 +12,7 @@ import PageCh17 from "./Components/testCh17/pageCh17";
 import PageCh18 from "./Components/testCh18/pageCh18";
 import PageCh19 from "./Components/testCh19/pageCh19";
 import PageCh20 from "./Components/testCh20/PageCh20";
+import PageCh24 from "./Components/testCh24/PageCh24";
 import NotFoundPage from "./Site/Pages/NotFoundPage";
 import PageCh20_DetialBookPage from "./Components/testCh20/PageCh20_DetialBookPage"; 
 import SiteHome from "./Site/Pages/SiteHome";
@@ -42,6 +43,7 @@ export const AppRoutes=()=> {
             { path:'detialbook/:id'  ,element:<PageCh20_DetialBookPage /> },
             {path:'*',element:<NotFoundPage />},
         ]},
+        {path:'/chapter24',element:<PageCh24 />},
         {path:'/admin',element:<AdminLayout />,
           children:[ 
              //error { path:'/'  ,element:<Navigate replace to={"dashboard"} /> },
